@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="B.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"/>
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"/>
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css"
+    rel="stylesheet"/>
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Material Blog Theme</title>
+</head>
+<body class="bg-light">
+
+    <!-- Navbar - - - - - - - - - - -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <div class="container">
+            <a class="navbar-brand">MatBlog</a>
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto text-light">
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link active" href="#">
+                            <i class="fas fa-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">Posts</a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">About</a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">Contact</a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item ripple" data-mdb-ripple-color="white">
+                        <a class="nav-link" href="#" tabindex="-1">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Search Form -->
+            <form class="d-flex input-group w-auto">
+                <input class="form-control" type="search" placeholder="Type..." aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">
+                    <i class="fas fa-search"></i> Search
+                </button>
+            </form>
+        </div>
+    </nav>
+    
+    <div class="py-5"></div>
+
+    <!-- Content Blog - - - - - - - - - - -->
+    <section class="container p-4 bg-white shadow">
+        <!-- Main Content -->
+        <div class="row">
+            <div class="main-content col-lg-9">
+                <h2>Latest Posts</h2>
+                <!-- Slider -->
+                <div id="carouselExampleCaptions" class="carousel slide"
+                    data-mdb-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-mdb-target="#carouselExampleCaptions"
+                        data-mdb-slide-to="0" class="active" aria-current="true"
+                        aria-label="Slide 1"></button>
+                        <button type="button" data-mdb-target="#carouselExampleCaptions"
+                        data-mdb-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-mdb-target="#carouselExampleCaptions"
+                        data-mdb-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="https://mdbootstrap.com/img/new/slides/041.jpg"
+                            class="d-block w-100" alt="..."/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="https://mdbootstrap.com/img/new/slides/042.jpg"
+                            class="d-block w-100" alt="..."/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="https://mdbootstrap.com/img/new/slides/043.jpg"
+                            class="d-block w-100" alt="..."/>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button"
+                        data-mdb-target="#carouselExampleCaptions" data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button"
+                        data-mdb-target="#carouselExampleCaptions" data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- End Slider -->
+                
+
+                <!-- Blog Latest Posts -->
+                <div class="latest-posts py-4 row">
+                    <!-- Card 1 -->
+                    <div class="card shadow col-lg-6">
+                        <img src="images/sunset.jpg"
+                        alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Awesome Sunset
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                                <div class="date">February 28, 2021</div>
+                            </p>
+                            <a href="#!" class="btn btn-danger">Read Now</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 -->
+                    <div class="card shadow col-lg-6">
+                        <img src="images/nature2.webp"
+                        alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Awesome Nature
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                                <div class="date">February 28, 2021</div>
+                            </p>
+                            <a href="#!" class="btn btn-danger">Read Now</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Card 1 -->
+                    <div class="card shadow col-lg-6">
+                        <img src="images/bh.jpg"
+                        alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                First Black Hole Photo (woww)
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                                <div class="date">February 28, 2021</div>
+                            </p>
+                            <a href="#!" class="btn btn-danger">Read Now</a>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- Card 1 -->
+                    <div class="card shadow col-lg-6">
+                        <img src="images/sate-sate-sate.jpg"
+                        alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Sate sate sate
+                            </h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title
+                                and make up the bulk of the card's content.
+                                <div class="date">February 28, 2021</div>
+                            </p>
+                            <a href="#!" class="btn btn-danger">Read Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- See All -->
+                <div class="text-center pb-5">
+                    <button class="btn btn-outline-danger" type="button"
+                    style="max-width: 200px;" data-mdb-ripple-color="danger">
+                    See All Posts
+                </button>
+                </div>
+            </div>
+
+
+            <!-- Blog Sidebar - - - - - - - - - - -->
+            <div class="col-lg-3 sidebar">
+                <div class="some-content pb-5">
+                    <div class="pb-3">
+                        <b>Categories:</b>
+                    </div>
+                    <ul class="list-group list-sidebar">
+                        <li class="list-group-item bg-danger text-white">
+                            Category 1
+                        </li>
+                        <li class="list-group-item ripple" data-mdb-ripple-color="dark">
+                            Category 2
+                        </li>
+                        <li class="list-group-item ripple" data-mdb-ripple-color="dark">
+                            Category 3
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="some-content pb-5">
+                    <div class="pb-3">
+                        <b>Archives:</b>
+                    </div>
+                    <ul class="list-group list-sidebar">
+                        <li class="list-group-item ripple" data-mdb-ripple-color="dark">
+                            January 2021
+                        </li>
+                        <li class="list-group-item ripple" data-mdb-ripple-color="dark">
+                            February 2021
+                        </li>
+                        <li class="list-group-item ripple" data-mdb-ripple-color="dark">
+                            March 2021
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="some-content pb-5">
+                    <div class="pb-3">
+                        <b>Newsletter:</b><br>
+                        Subscribe to our Newsletter and receive our most relevant posts!
+                    </div>
+                    <form method="post" action="">
+                        <div class="form-outline mb-1">
+                            <i class="fas fa-user-circle trailing"></i>
+                            <input class="form-control form-icon-trailing" type="text"
+                            name="name" placeholder="Your Name..." required>
+                        </div>
+                        <div class="form-outline mb-1">
+                            <i class="fas fa-envelope trailing"></i>
+                            <input class="form-control form-icon-trailing" type="email"
+                            name="email" placeholder="Your Email..." required>
+                        </div>
+                        <button class="btn btn-danger" type="submit" style="width: 100%;">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer - - - - - - - - - - -->
+    <footer class="bg-danger text-white mt-4 p-4 text-center">
+        <div class="container">
+            @2021 Theme By
+        <a href="http://andresn.pt/" target="_blank">André N.</a>
+        <i class="fas fa-code"></i>
+        <hr>
+        <div class="icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram mx-3"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin mx-3"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"
+    ></script>
+</body>
+</html>

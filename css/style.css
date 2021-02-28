@@ -1,0 +1,26 @@
+.main-content .latest-posts .card img{
+    max-width: 100%;
+    margin: 5px;
+}
+
+.main-content .latest-posts .card{
+    max-width: 400px;
+    margin: 5px;
+}
+
+.main-content .latest-posts .card .date{
+    color: rgb(150, 148, 148);
+    font-size: 14px;
+}
+
+
+.sidebar .list-sidebar .list-group-item{
+    cursor: pointer;
+}
+
+
+footer a:link, footer a:visited{
+    color: white;
+    text-decoration: underline;
+}
+
