@@ -1,1 +1,1 @@
-# material-blog-theme
+# Material Blog Theme
